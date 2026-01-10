@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="2XAI54BQ2xvMO0fTqs3o">
+    <mxGraphModel dx="976" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Snake and Ladder&lt;br&gt;&lt;br&gt;Requirement Gathering&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Objects&lt;br&gt;1.Players&lt;/div&gt;&lt;div&gt;2.Board&lt;/div&gt;&lt;div&gt;3.Snake&lt;/div&gt;&lt;div&gt;4.Dice&lt;/div&gt;&lt;div&gt;5.Ladder&lt;/div&gt;" vertex="1">
+          <mxGeometry height="167" width="167" x="116" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-6" edge="1" parent="1" source="gAnvr4qXxIrri1jdjoMc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gAnvr4qXxIrri1jdjoMc-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Snake&lt;div&gt;snakeid&lt;/div&gt;&lt;div&gt;startpoint&lt;/div&gt;&lt;div&gt;endpoint&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53" width="82" x="44" y="770.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-9" edge="1" parent="1" source="gAnvr4qXxIrri1jdjoMc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gAnvr4qXxIrri1jdjoMc-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ladder&lt;div&gt;ladderid&lt;/div&gt;&lt;div&gt;startpoint&lt;/div&gt;&lt;div&gt;endpoint&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="91" x="407" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Board&lt;div&gt;boardid&lt;/div&gt;&lt;div&gt;List&amp;lt;Snake&amp;gt;&lt;/div&gt;&lt;div&gt;List&amp;lt;Ladder&amp;gt;&lt;/div&gt;&lt;div&gt;List&amp;lt;Players&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="117" x="215" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="has-a" vertex="1">
+          <mxGeometry height="30" width="60" x="128" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="has-a" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-12" edge="1" parent="1" source="gAnvr4qXxIrri1jdjoMc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.11764705882354" y="853.6470588235295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player&lt;div&gt;playerid&lt;/div&gt;&lt;div&gt;diceType&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="59" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="has-a" vertex="1">
+          <mxGeometry height="30" width="60" x="227" y="877" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-15" edge="1" parent="1" source="gAnvr4qXxIrri1jdjoMc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gAnvr4qXxIrri1jdjoMc-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dice(ENUM)&lt;div&gt;one&lt;/div&gt;&lt;div&gt;two&lt;/div&gt;&lt;div&gt;three&lt;/div&gt;&lt;div&gt;four&lt;/div&gt;&lt;div&gt;fivr&lt;/div&gt;&lt;div&gt;six&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="152" x="13" y="979" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="has-a" vertex="1">
+          <mxGeometry height="30" width="60" x="97" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="gAnvr4qXxIrri1jdjoMc-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GameManagement&lt;div&gt;updatePlayerInBoard&lt;/div&gt;&lt;div&gt;Dice&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="140" x="339" y="862" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
