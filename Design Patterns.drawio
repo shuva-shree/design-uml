@@ -232,7 +232,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6GtSXtW7r1r8WgL9y_WC-89" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PricingStategy" vertex="1">
-          <mxGeometry height="100" width="170" x="850" y="360" as="geometry" />
+          <mxGeometry height="100" width="170" x="840" y="300" as="geometry" />
         </mxCell>
         <mxCell id="6GtSXtW7r1r8WgL9y_WC-90" parent="6GtSXtW7r1r8WgL9y_WC-89" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-ticket(Ticket)" vertex="1">
           <mxGeometry height="26" width="170" y="26" as="geometry" />
